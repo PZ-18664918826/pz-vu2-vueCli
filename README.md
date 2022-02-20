@@ -1,4 +1,4 @@
-# [PZ-Vue2-Vue-Cli](https://github.com/PZ-18664918826/pz-vue2-vite.git)
+# [PZ-Vue2-Vue-Cli](https://github.com/PZ-18664918826/pz-vu2-vueCli.git)
 
 一个 **vite + vue2 + ts** 开箱即用现代开发模板
 
