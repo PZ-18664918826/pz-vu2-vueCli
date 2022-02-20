@@ -4,21 +4,19 @@
 
 ## 特点 🐳
 
-1. Vite 的
+1. Vue3 的写法
 
-2. Vue3 的写法
+2. TypeScript
 
-3. TypeScript
+3. 支持图标自动导入
 
-4. 支持图标自动导入
+4. Windi CSS
 
-5. Windi CSS
+5. pinia 状态管理
 
-6. pinia 状态管理
+6. 路径别名 `~ @` 支持
 
-7. 路径别名 `~ @` 支持
-
-8. 符合中小型项目代码规范
+7. 符合中小型项目代码规范
 
 
 
@@ -27,37 +25,37 @@
 1. 安装依赖
 
 ```shell
-pnpm install
+yarn install
 ```
 
 2. 开发
 
 ```shell
-pnpm run dev
+yarn run dev
 ```
 
 3. 打包
 
 ```shell
-pnpm run build
+yarn run build
 ```
 
 4. TS类型检查
 
 ```shell
-pnpm run tsCheck
+yarn run tsCheck
 ```
 
 5.Eslint检查
 
 ```shell
-pnpm lint
+yarn lint
 ```
 
 6.项目预览
 
 ```shell
-pnpm preview
+yarn preview
 ```
 
 <br />
@@ -72,7 +70,9 @@ pnpm preview
 
 3.支持vue3的规范
 
-缺点：vur-router 的使用体验和 2.0 的一样，与3.0的不同。
+缺点：
+1.vur-router 的使用体验和 2.0 的一样，与3.0的不同
+2.vue-cli 不支持setup语法糖 只能使用defineComponent
 
 
 

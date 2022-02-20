@@ -30,18 +30,25 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { ref } from '@vue/composition-api';
+<script lang="ts">
+import { defineComponent, ref } from '@vue/composition-api';
 
-defineProps({
-  msg: {
-    type: String,
-    default: ''
+export default defineComponent({
+  props: {
+    msg: {
+      type: String,
+      default: ''
+    }
+  },
+  setup() {
+    const count = ref<number>(0);
+    const str = ref<string>('composition-api');
+    return {
+      count,
+      str
+    };
   }
 });
-
-const count = ref<number>(0);
-const str = ref<string>('composition-api');
 </script>
 
 <style scoped></style>
