@@ -1,12 +1,12 @@
 # [PZ-Vue2-Vue-Cli](https://github.com/PZ-18664918826/pz-vu2-vueCli.git)
 
-一个 **vite + vue2 + ts** 开箱即用现代开发模板
+一个 **vue-cli + vue2 + ts** 开箱即用现代开发模板
 
 ## 特点 🐳
 
 1. Vite 的
 
-2. Vue3 的
+2. Vue3 的写法
 
 3. TypeScript
 
