@@ -23,6 +23,8 @@ module.exports = defineConfig({
   pluginOptions: {
     windicss: {}
   },
+  // disable thread-loader, which is not compactible with this plugin
+  parallel: false,
   configureWebpack: {
     plugins: [
       ScriptSetup({

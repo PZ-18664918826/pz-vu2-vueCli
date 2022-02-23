@@ -8,29 +8,16 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from '@vue/composition-api';
+<script lang="ts" setup>
+import { ref } from '@vue/composition-api';
 import { Icon } from '@iconify/vue2';
 import { useAuthStore } from '@/store';
 // 支持别名
 import { ImgLogo } from '@/assets';
 import HelloWorld from './components/HelloWorld.vue';
 
-export default defineComponent({
-  components: {
-    HelloWorld,
-    Icon
-  },
-  setup() {
-    const auth = useAuthStore();
-    const str = ref<string>('composition-api');
-    return {
-      auth,
-      str,
-      ImgLogo
-    };
-  }
-});
+const auth = useAuthStore();
+const str = ref<string>('composition-api');
 </script>
 
 <style lang="scss"></style>

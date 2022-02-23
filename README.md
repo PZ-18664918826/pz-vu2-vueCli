@@ -72,7 +72,7 @@ yarn preview
 
 缺点：
 1.vur-router 的使用体验和 2.0 的一样，与3.0的不同
-2.vue-cli 不支持setup语法糖 只能使用defineComponent
+
 
 
 
