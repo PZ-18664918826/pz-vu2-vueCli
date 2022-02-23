@@ -6,6 +6,7 @@ const Icon = require('unplugin-icons/webpack')({ compiler: 'vue2', scale: 1, def
 const WindiCSSWebpackPlugin = require('windicss-webpack-plugin');
 
 module.exports = defineConfig({
+  parallel: false, // disable thread-loader, which is not compactible with this plugin
   transpileDependencies: true,
   pages: {
     index: {
